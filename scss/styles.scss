@@ -546,10 +546,14 @@ footer {
         margin: 0 0 15px 0;
     }
 
-    p {
+    p, ul {
+        margin: 0 0 15px 0;
         color: $text;
         font-size: 0.9em;
-        margin: 0;
+    }
+
+    ul {
+        padding: 0 0 0 15px;
     }
 }
 
@@ -651,7 +655,7 @@ footer {
 #projects {
     padding: 50px 15px;
     border-bottom: 1px solid $border;
-    text-align: left;
+    text-align: center;
 
     h2 {
         color: $heading;
@@ -666,6 +670,7 @@ footer {
     overflow: hidden;
     background: #fff;
     border-radius: 4px;
+    text-align: left;
 }
 
 .project-image {
@@ -694,6 +699,11 @@ footer {
 
     ul {
         padding: 0 0 0 15px;
+    }
+
+    a {
+      float: left;
+      clear: left;
     }
 }
 
